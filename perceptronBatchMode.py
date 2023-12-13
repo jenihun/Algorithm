@@ -40,7 +40,7 @@ def main():
     correct = 0
     wrong = 0
     
-    file_name = '행동분류_데이터.csv'
+    file_name = 'data/행동분류_데이터.csv'
     labels, datas = read_csv_file(file_name)
     
     datas = np.array(datas)

@@ -75,7 +75,6 @@ def main():
 
     for i in range(image.shape[0]):
         for j in range(image.shape[1]):
-            
             for d in range(len(cluster_array)):
                 for f in cluster_array[d][:]:
                     if np.array_equal(image[i][j], f):
